@@ -29,7 +29,6 @@ public class StringExamples {
 
 			System.out.println("hello");
 			
-			System.out.println(str11[3]);
 		}
 		
 		/*

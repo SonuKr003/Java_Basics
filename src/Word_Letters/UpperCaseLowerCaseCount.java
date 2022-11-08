@@ -34,6 +34,32 @@ public class UpperCaseLowerCaseCount {
 		}
 
 		System.out.println("Upper Case count :" + ucount + " Lower case Count : " + lcount );
+		
+		
+		String name="DemonsKUmarDD";
+		
+		int Ucout=0;
+		int lowCount=0;
+		
+		for (int i = 0; i < name.length(); i++) {
+			
+			char c=name.charAt(i);
+			
+			if(c>='A' && c<='Z') {
+				
+				Ucout++;
+			}
+			else {
+				
+				lowCount++;
+			}
+			
+			
+		}
+		
+		System.out.println(lowCount+" : "+Ucout);
+		
+		
 	}
 
 }

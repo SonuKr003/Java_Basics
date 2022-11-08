@@ -6,7 +6,7 @@ public class DemoTest {
 
 	public static void main(String[] args) {
 
-		String str = "1 2 3 4 5 6123";
+		String str = "sonu 123432 kumaron%$%";
 
 		HashSet<Character> hset = new HashSet<>();
 
